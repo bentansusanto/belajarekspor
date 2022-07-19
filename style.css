@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    padding: 0 10px;
+}
+
+/* Hero Section */
+.heros{
+    margin: 100px 0;
+    padding: 0 10px;
+}
+.hero img{
+    width: 100%;
+    padding: 50px 0;
+}
+.hero1 h1{
+    font-weight: 700;
+}
+.hero1 p{
+    font-size: .9rem;
+}
+
+
+/* Responsive */
+/* Large Desktop */
+@media(min-width:1200px){
+    .hero img{
+        width: 70%;
+        padding: unset;
+    }
+    .hero1{
+        text-align: left;
+        padding-top: 50px;
+    }
+    .hero1 h1{
+        margin: unset;
+        font-size: 3rem;
+        width: 60%;
+    }
+    .hero1 p{
+        width: 50%;
+        padding-top: 15px;
+        margin: unset;
+    }
+}
+
+/* Middle Desktop */
+@media(min-width: 1025px) and (max-width: 1199px){
+    .hero img{
+        width: 70%;
+        padding: unset;
+    }
+    .hero1{
+        text-align: left;
+        padding-top: 50px;
+    }
+    .hero1 h1{
+        margin: unset;
+        font-size: 2rem;
+        width: 70%;
+    }
+    .hero1 p{
+        width: 60%;
+        padding-top: 15px;
+        margin: unset;
+    }
+}
+
+/* Desktop */
+@media(min-width: 992px) and (max-width: 1024px){
+    .hero img{
+        width: 70%;
+        padding: unset;
+    }
+    .hero1{
+        text-align: left;
+        padding-top: 50px;
+    }
+    .hero1 h1{
+        margin: unset;
+        font-size: 2rem;
+        width: 70%;
+    }
+    .hero1 p{
+        width: 60%;
+        padding-top: 15px;
+        margin: unset;
+    }
+}
+/* Tablet */
+@media(min-width:768px) and (max-width: 991px){
+    .hero{
+        text-align: center;
+    }
+    .hero img{
+        width: 70%;
+    }
+    .hero1{
+        text-align: center;
+        padding-top: unset;
+    }
+    .hero1 h1{
+        margin: auto;
+        font-size: 2rem;
+        width: 50%;
+    }
+    .hero1 p{
+        width: 60%;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+}
+
+/* Handphone */
+@media(max-width: 767px){
+    .hero1{
+        text-align: center;
+        padding-top: unset;
+    }
+    .hero1 h1{
+        margin: auto;
+        font-size: 2rem;
+        width: 80%;
+    }
+    .hero1 p{
+        width: 100%;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+}
